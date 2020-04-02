@@ -7,7 +7,7 @@ import './Contact.css'
 function Contact (props) {
     return (
         <div className="Contact">
-            <img className="avatar" src={ props.image } alt="Marlène Brewer" />            
+            <img className="avatar" src={ props.image } alt={ props.name } />            
             <div className="status-text">
                 <h3 className="name">{ props.name }</h3>
                 <div className="status" >
